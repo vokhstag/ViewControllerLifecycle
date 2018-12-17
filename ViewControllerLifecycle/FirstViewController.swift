@@ -15,7 +15,7 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        model.labelText =  "На первом экране вызвана функция viewDidLoad()\n" + model.labelText
+        model.labelText =  "На 1 первом экране вызвана функция viewDidLoad()\n" + model.labelText
         
     }
     override func viewWillAppear(_ animated: Bool) {
